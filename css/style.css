@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'crash';
+    src: url('../font/crash-a-like.ttf')
+}
+
+h1,
+h2,
+h3,
+span {
+    font-family: 'crash';
+    font-size: 4em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h1,
+h3 {
+    color: orange;
+}
+
+h2 {
+    color: yellow;
+    text-shadow: 1px 1px #000000;
+}
+
+
+/*** Image responsive ***/
+
+.resp {
+    width: 100%;
+    height: auto;
+}
+
+
+/*** clear le flux ***/
+
+.cls {
+    clear: both;
+}
+
+
+/*** float droite et gauche ***/
+
+.droite {
+    float: right;
+}
+
+.gauche {
+    float: left;
+}
+
+
+/*** header ***/
+
+header {
+    height: 100vh;
+    background-image: url("../img/crash1.jpg");
+    background-size: cover;
+}
+
+#rowHeader {
+    width: 60%;
+    margin-left: 40%;
+}
+
+#logo {
+    width: 40%;
+}
+
+#menu {
+    width: 5%;
+    margin-top: 50px;
+}
+
+#menu li {
+    border: solid 2px yellow;
+    height: 0px;
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+#boutonBuy {
+    background-color: yellow;
+    border: solid 1px orange;
+    color: white;
+    width: 250px;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 25vh 0 0 30px;
+}
+
+#boutonBuy span {
+    font-size: 2em;
+    text-shadow: 1px 1px #000000;
+}
+
+
+/*** main ***/
+
+
+/*** 1ere section ***/
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.imgCrash {
+    width: 25%;
+}
+
+article {
+    width: 50%;
+    margin-top: 80px;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article p {
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+/*** 2eme section ***/
+
+#blue {
+    background-color: cornflowerblue;
+    border: solid 2px orange;
+    height: 450px;
+}
+
+#blue h2 {
+    text-transform: uppercase;
+    margin-top: 120px;
+    text-align: center;
+}
+
+#blue h2:first-of-type {
+    transform: rotate(-33deg);
+}
+
+#blue h2:last-of-type {
+    transform: rotate(33deg);
+}
+
+#blue .imgCrash {
+    width: 33%;
+}
+
+
+/*** 3eme section ***/
+
+h3 {
+    text-align: center;
+}
+
+#carousel {
+    background-image: url("../img/crash2.jpg");
+    height: 80vh;
+    background-size: cover;
+    margin: 50px 0;
+}
+
+#rowArrow span {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 23% 20px 0 20px;
+}
+
+
+/*** footer ***/
+
+footer {
+    background-color: orange;
+}
+
+.imgFooter {
+    width: 10%;
+}
+
+div.imgFooter:not(:nth-of-type(1)),
+ul.imgFooter {
+    margin-top: 50px;
+}
+
+ul.imgFooter {
+    margin-left: 35%;
+    width: 13%;
+}
+
+footer .container {
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em
+}
